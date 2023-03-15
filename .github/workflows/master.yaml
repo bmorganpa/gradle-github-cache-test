@@ -1,8 +1,8 @@
-name: Master Workflow
+name: Dev Workflow
 
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
 
 jobs:
   runner-job:
