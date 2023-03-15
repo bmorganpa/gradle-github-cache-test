@@ -20,4 +20,4 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Create bootjar
-        run: ./gradlew :app:bootJar
+        run: ./gradlew --build-cache :app:bootJar
