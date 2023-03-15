@@ -1,3 +1,5 @@
 rootProject.name = 'demo'
 
 include("app")
+include("module-a")
+include("module-b")
