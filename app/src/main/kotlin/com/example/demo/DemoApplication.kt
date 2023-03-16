@@ -11,5 +11,6 @@ class DemoApplication
 fun main(args: Array<String>) {
 	println(ModuleA("1"))
 	println(ModuleB("1"))
+	println("CHANGE!")
 	runApplication<DemoApplication>(*args)
 }
