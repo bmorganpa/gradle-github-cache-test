@@ -18,5 +18,5 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      - name: Create bootjar
-        run: ./gradlew --build-cache :app:bootJar
+      - name: Run tests
+        run: ./gradlew --build-cache :app:test :module-a:test :module-b:test
